@@ -1,0 +1,60 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 11400px;
+    background-color: #ffff; 
+    height: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+header,footer{
+    position: absolute;
+    background-color: rgb(97, 97, 226);
+    width: 100%;
+    color: white;
+}
+header h2{
+    position: absolute;
+    margin-top: 0px;
+    right: 60%;
+    
+}
+
+header{
+    height: 10vh;
+    top: 0%;
+
+}
+footer h2{
+    position: absolute;
+    bottom: 0%;
+    left:45%;
+}
+footer{
+    height: 5vh;
+    
+}
+.nav{
+    position:absolute;
+    width: 100%;
+    float: right;
+    
+}
+.nav a{
+position: relative;
+left:45% ;
+top: 20px;
+color: white;
+text-decoration: none;
+margin-right: 20px;
+
+
+}
+.clear{
+    clear: both;
+}
